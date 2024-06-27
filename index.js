@@ -52,7 +52,7 @@ function init() {
         console.log(data)
         const result = generateMarkdown(data)
         console.log(result)
-        writeToFile("Example.md", result)
+        writeToFile("README.md", result)
         // fs.writeFile("Example.md", result, function(err){
         //     if (err) throw err;
         //     console.log("File Written")
